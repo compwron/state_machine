@@ -1,7 +1,7 @@
 PATH
-  remote: /home/aaron/Projects/Personal/pluginaweek/state_machine
+  remote: ..
   specs:
-    state_machine (1.2.0)
+    state_machine_deuxito (0.0.1)
 
 GEM
   remote: http://www.rubygems.org/
@@ -21,7 +21,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  appraisal (~> 0.5.0)
+  appraisal
   rake
   simplecov
-  state_machine!
+  state_machine_deuxito!
+
+BUNDLED WITH
+   2.1.4
